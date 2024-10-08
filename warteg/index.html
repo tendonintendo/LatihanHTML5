@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warung Tegal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f0e9;
+        }
+        header {
+            background-color: #d4a373;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #e4d5c7;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #6a503f;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .menu {
+            flex-basis: 60%;
+            background-color: #ffffff;
+            padding: 20px;
+            border: 1px solid #c7b9ac;
+        }
+        .menu img {
+            max-width: 100%;
+            height: auto;
+        }
+        .menu h3 {
+            color: #a67c52; 
+        }
+        .sidebar {
+            flex-basis: 30%;
+            padding: 20px;
+            background-color: #faf4ee; 
+            border: 1px solid #d9c9b3;
+        }
+        .sidebar h3 {
+            color: #a67c52; 
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 5px 0;
+        }
+        ul li:hover {
+            color: #d4a373;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #e4d5c7;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>WARUNG BEGAL</h1>
+        <h2>Warungnya Begal</h2>
+    </header>
+
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Daftar Masakan</a>
+        <a href="#">Katering</a>
+        <a href="#">Tentang</a>
+        <a href="#">Kontak</a>
+    </nav>
+
+    <div class="container">
+        <!-- Menu Section -->
+        <div class="menu">
+            <div>
+                <img src="rawon.jpg" alt="Rawon">
+                <h3>Rawon</h3>
+                <p>Makanan dengan Kuah Khas Hitam</p>
+                <p>Rawon adalah makanan khas Indonesia yang berupa sup daging dengan kuah hitam yang berasal dari kluwek, khas daerah Jawa Timur.</p>
+            </div>
+            <div>
+                <img src="kangkung.jpg" alt="Kangkung">
+                <h3>Kangkung</h3>
+                <p>Makanan dengan Sayuran Hijau</p>
+                <p>Kangkung adalah tumis sayuran hijau yang sangat populer di Indonesia, biasanya diolah dengan bumbu sederhana seperti bawang putih dan cabai.</p>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <h3>Masakan Populer</h3>
+            <ul>
+                <li>Sayur Sop</li>
+                <li>Sayur Asem</li>
+                <li>Sayur Lodeh</li>
+                <li>Sayur Bayem</li>
+            </ul>
+
+            <h3>Kontak</h3>
+            <p>Warung Tegal di seluruh Indonesia</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Warung Tegal</p>
+    </footer>
+
+</body>
+</html>
